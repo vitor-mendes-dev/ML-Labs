@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ML Labs — Previsão de Preço · Sudoeste, Brasília</title>
+    <meta name="description" content="Modelo XGBoost especializado na previsão de preços de imóveis no Sudoeste (Brasília-DF), com granularidade por quadra e inferência 100% no browser." />
+
+    <!-- Previne flash de tema incorreto antes do React carregar -->
+    <script>
+      (function () {
+        var saved = localStorage.getItem('ml-labs-theme')
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (saved === 'dark' || (!saved && prefersDark)) {
+          document.documentElement.classList.add('dark')
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

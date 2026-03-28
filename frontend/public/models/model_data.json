@@ -1,0 +1,352 @@
+{
+  "label_encoders": {
+    "tipo_imovel": [
+      "apartamento",
+      "casa-condominio",
+      "galpao",
+      "garagem",
+      "hotel-flat",
+      "kitnet",
+      "loja",
+      "lote",
+      "ponto-comercial",
+      "predio",
+      "rural",
+      "sala"
+    ],
+    "subtipo_imovel": [
+      "andar",
+      "chacara-sitio",
+      "clinica",
+      "cobertura",
+      "comercial",
+      "consultorio",
+      "duplex",
+      "kitnet-studio",
+      "loft",
+      "misto",
+      "mobiliado",
+      "padrao",
+      "predio",
+      "residencial"
+    ],
+    "cidade": [
+      "BRASILIA"
+    ],
+    "bairro": [
+      "SUDOESTE"
+    ]
+  },
+  "feature_cols": [
+    "tipo_imovel",
+    "subtipo_imovel",
+    "cidade",
+    "bairro",
+    "quartos",
+    "suites",
+    "vagas",
+    "area",
+    "meses_desde_captura",
+    "tempo_normalizado",
+    "trimestre_sin",
+    "trimestre_cos",
+    "is_recente",
+    "preco_referencia_local",
+    "preco_m2_referencia_local"
+  ],
+  "bairro_stats": {
+    "SUDOESTE": {
+      "preco_med": 912500.0,
+      "preco_m2_med": 13950.0
+    }
+  },
+  "quadra_stats": {
+    "CCSW 02": {
+      "preco_med": 2890000.0,
+      "count": 2,
+      "preco_m2_med": 13632.0
+    },
+    "CCSW 1": {
+      "preco_med": 715500.0,
+      "count": 72,
+      "preco_m2_med": 15192.0
+    },
+    "CCSW 2": {
+      "preco_med": 1270000.0,
+      "count": 55,
+      "preco_m2_med": 14400.0
+    },
+    "CCSW 3": {
+      "preco_med": 1087500.0,
+      "count": 34,
+      "preco_m2_med": 14801.0
+    },
+    "CCSW 4": {
+      "preco_med": 550000.0,
+      "count": 67,
+      "preco_m2_med": 15000.0
+    },
+    "CCSW 5": {
+      "preco_med": 395000.0,
+      "count": 63,
+      "preco_m2_med": 14333.33
+    },
+    "CCSW 6": {
+      "preco_med": 410000.0,
+      "count": 3,
+      "preco_m2_med": 14333.0
+    },
+    "CLSW 100": {
+      "preco_med": 510000.0,
+      "count": 4,
+      "preco_m2_med": 18351.5
+    },
+    "CLSW 101": {
+      "preco_med": 340000.0,
+      "count": 12,
+      "preco_m2_med": 9128.810000000001
+    },
+    "CLSW 102": {
+      "preco_med": 385000.0,
+      "count": 18,
+      "preco_m2_med": 9669.665
+    },
+    "CLSW 103": {
+      "preco_med": 355000.0,
+      "count": 15,
+      "preco_m2_med": 9354.0
+    },
+    "CLSW 104": {
+      "preco_med": 345000.0,
+      "count": 14,
+      "preco_m2_med": 9202.5
+    },
+    "CLSW 105": {
+      "preco_med": 375000.0,
+      "count": 7,
+      "preco_m2_med": 9153.0
+    },
+    "CLSW 300A": {
+      "preco_med": 739000.0,
+      "count": 29,
+      "preco_m2_med": 9986.49
+    },
+    "CLSW 300B": {
+      "preco_med": 498000.0,
+      "count": 31,
+      "preco_m2_med": 13833.0
+    },
+    "CLSW 301": {
+      "preco_med": 420000.0,
+      "count": 19,
+      "preco_m2_med": 10000.0
+    },
+    "CLSW 302": {
+      "preco_med": 372000.0,
+      "count": 11,
+      "preco_m2_med": 10062.0
+    },
+    "CLSW 303": {
+      "preco_med": 349900.0,
+      "count": 9,
+      "preco_m2_med": 9062.5
+    },
+    "CLSW 304": {
+      "preco_med": 295000.0,
+      "count": 9,
+      "preco_m2_med": 9275.86
+    },
+    "CLSW 504": {
+      "preco_med": 440000.0,
+      "count": 25,
+      "preco_m2_med": 11769.0
+    },
+    "EQRSW 2/3": {
+      "preco_med": 439000.0,
+      "count": 45,
+      "preco_m2_med": 14966.67
+    },
+    "EQRSW 3/4": {
+      "preco_med": 820000.0,
+      "count": 1,
+      "preco_m2_med": 13666.0
+    },
+    "EQRSW 4/5": {
+      "preco_med": 1200000.0,
+      "count": 1,
+      "preco_m2_med": 13186.81
+    },
+    "EQRSW 5/6": {
+      "preco_med": 4000000.0,
+      "count": 1,
+      "preco_m2_med": 6944.0
+    },
+    "EQRSW 7/8": {
+      "preco_med": 440000.0,
+      "count": 10,
+      "preco_m2_med": 14249.0
+    },
+    "EQSW 304/504": {
+      "preco_med": 697500.0,
+      "count": 20,
+      "preco_m2_med": 10561.994999999999
+    },
+    "QMSW 1": {
+      "preco_med": 450000.0,
+      "count": 1,
+      "preco_m2_med": 11842.0
+    },
+    "QMSW 2": {
+      "preco_med": 2900000.0,
+      "count": 13,
+      "preco_m2_med": 8316.67
+    },
+    "QMSW 4": {
+      "preco_med": 439000.0,
+      "count": 75,
+      "preco_m2_med": 12804.88
+    },
+    "QMSW 5": {
+      "preco_med": 429000.0,
+      "count": 209,
+      "preco_m2_med": 15800.0
+    },
+    "QMSW 6": {
+      "preco_med": 437000.0,
+      "count": 57,
+      "preco_m2_med": 13636.0
+    },
+    "QRSW 1": {
+      "preco_med": 682500.0,
+      "count": 40,
+      "preco_m2_med": 11015.5
+    },
+    "QRSW 2": {
+      "preco_med": 670000.0,
+      "count": 55,
+      "preco_m2_med": 11333.0
+    },
+    "QRSW 3": {
+      "preco_med": 697000.0,
+      "count": 42,
+      "preco_m2_med": 11567.525
+    },
+    "QRSW 4": {
+      "preco_med": 729500.0,
+      "count": 48,
+      "preco_m2_med": 12198.835
+    },
+    "QRSW 5": {
+      "preco_med": 680000.0,
+      "count": 35,
+      "preco_m2_med": 11929.0
+    },
+    "QRSW 6": {
+      "preco_med": 650000.0,
+      "count": 11,
+      "preco_m2_med": 11393.0
+    },
+    "QRSW 7": {
+      "preco_med": 697500.0,
+      "count": 44,
+      "preco_m2_med": 11583.335
+    },
+    "QRSW 8": {
+      "preco_med": 682500.0,
+      "count": 44,
+      "preco_m2_med": 11311.0
+    },
+    "RODOVIA DF": {
+      "preco_med": 320000.0,
+      "count": 1,
+      "preco_m2_med": 64.0
+    },
+    "SHCSW CHSW": {
+      "preco_med": 850000.0,
+      "count": 7,
+      "preco_m2_med": 17244.0
+    },
+    "SQSW 100": {
+      "preco_med": 1290000.0,
+      "count": 14,
+      "preco_m2_med": 14036.7
+    },
+    "SQSW 101": {
+      "preco_med": 1290000.0,
+      "count": 37,
+      "preco_m2_med": 13753.0
+    },
+    "SQSW 102": {
+      "preco_med": 1900000.0,
+      "count": 71,
+      "preco_m2_med": 13428.57
+    },
+    "SQSW 103": {
+      "preco_med": 1955000.0,
+      "count": 34,
+      "preco_m2_med": 13447.165
+    },
+    "SQSW 104": {
+      "preco_med": 1277500.0,
+      "count": 30,
+      "preco_m2_med": 14132.335
+    },
+    "SQSW 105": {
+      "preco_med": 1359000.0,
+      "count": 60,
+      "preco_m2_med": 14090.0
+    },
+    "SQSW 300": {
+      "preco_med": 2800000.0,
+      "count": 86,
+      "preco_m2_med": 15515.5
+    },
+    "SQSW 301": {
+      "preco_med": 1950000.0,
+      "count": 41,
+      "preco_m2_med": 14772.73
+    },
+    "SQSW 302": {
+      "preco_med": 1490000.0,
+      "count": 33,
+      "preco_m2_med": 14479.0
+    },
+    "SQSW 303": {
+      "preco_med": 1420000.0,
+      "count": 55,
+      "preco_m2_med": 13464.91
+    },
+    "SQSW 304": {
+      "preco_med": 1199000.0,
+      "count": 55,
+      "preco_m2_med": 14076.92
+    },
+    "SQSW 305": {
+      "preco_med": 2290000.0,
+      "count": 109,
+      "preco_m2_med": 14276.0
+    },
+    "SQSW 306": {
+      "preco_med": 1575000.0,
+      "count": 48,
+      "preco_m2_med": 14689.33
+    },
+    "SQSW 500": {
+      "preco_med": 3249000.0,
+      "count": 219,
+      "preco_m2_med": 19469.0
+    },
+    "SQSW 504": {
+      "preco_med": 1345000.0,
+      "count": 70,
+      "preco_m2_med": 14171.43
+    }
+  },
+  "meta": {
+    "r2": 0.9477745220392638,
+    "mae": 129922.9188961331,
+    "n_treino": 2224,
+    "data_treino": "2026-03-23T11:00:20.044696",
+    "std_residual": 162834.23
+  }
+}

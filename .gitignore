@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycache
+.env
+.venv
+venv/
+
+# Modelo pickle (arquivo binário grande, não necessário para o frontend)
+modelos/
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+
+# Arquivos WASM/MJS do onnxruntime copiados manualmente (98MB, bundlados pelo Vite)
+frontend/public/onnxruntime-web/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.user
